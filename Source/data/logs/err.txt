@@ -1,0 +1,190 @@
+java.lang.ArrayIndexOutOfBoundsException: 23
+	at org.endeavor.engine.cache.inter.RSInterface.child(RSInterface.java:5466)
+	at org.endeavor.engine.cache.inter.RSInterface.specialBar(RSInterface.java:4510)
+	at org.endeavor.engine.cache.inter.RSInterface.Sidebar0a(RSInterface.java:4640)
+	at org.endeavor.engine.cache.inter.RSInterface.Sidebar0(RSInterface.java:4535)
+	at org.endeavor.engine.cache.inter.RSInterface.unpackCustom(RSInterface.java:355)
+	at org.endeavor.engine.cache.inter.RSInterface.unpack(RSInterface.java:332)
+	at org.endeavor.GameDataLoader.load(GameDataLoader.java:115)
+	at org.endeavor.engine.GameThread.startup(GameThread.java:158)
+	at org.endeavor.engine.GameThread.init(GameThread.java:46)
+	at org.endeavor.Server.main(Server.java:9)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.endeavor.engine.cache.map.MapConstants.getDoubleDoor(MapConstants.java:59)
+	at org.endeavor.engine.cache.map.MapLoading.processDoors(MapLoading.java:75)
+	at org.endeavor.GameDataLoader$1.run(GameDataLoader.java:95)
+java.lang.ArrayIndexOutOfBoundsException: 23
+	at org.endeavor.engine.cache.inter.RSInterface.child(RSInterface.java:5466)
+	at org.endeavor.engine.cache.inter.RSInterface.specialBar(RSInterface.java:4510)
+	at org.endeavor.engine.cache.inter.RSInterface.Sidebar0a(RSInterface.java:4640)
+	at org.endeavor.engine.cache.inter.RSInterface.Sidebar0(RSInterface.java:4535)
+	at org.endeavor.engine.cache.inter.RSInterface.unpackCustom(RSInterface.java:355)
+	at org.endeavor.engine.cache.inter.RSInterface.unpack(RSInterface.java:332)
+	at org.endeavor.GameDataLoader.load(GameDataLoader.java:115)
+	at org.endeavor.engine.GameThread.startup(GameThread.java:158)
+	at org.endeavor.engine.GameThread.init(GameThread.java:46)
+	at org.endeavor.Server.main(Server.java:9)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.endeavor.engine.cache.map.MapConstants.getDoubleDoor(MapConstants.java:59)
+	at org.endeavor.engine.cache.map.MapLoading.processDoors(MapLoading.java:75)
+	at org.endeavor.GameDataLoader$1.run(GameDataLoader.java:95)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.endeavor.engine.cache.map.MapConstants.getDoubleDoor(MapConstants.java:59)
+	at org.endeavor.engine.cache.map.MapLoading.processDoors(MapLoading.java:75)
+	at org.endeavor.GameDataLoader$1.run(GameDataLoader.java:95)
+Jul 21, 2014 2:12:41 PM org.endeavor.game.entity.item.impl.GlobalItemHandler spawnGroundItems
+INFO: Successfully loaded 1 global ground items.
+Jul 21, 2014 2:12:41 PM org.endeavor.engine.network.mysql.Database connect
+INFO: Connecting to MySQL...
+Jul 21, 2014 2:17:11 PM org.endeavor.game.entity.item.impl.GlobalItemHandler spawnGroundItems
+INFO: Successfully loaded 1 global ground items.
+Jul 21, 2014 2:17:11 PM org.endeavor.engine.network.mysql.Database connect
+INFO: Connecting to MySQL...
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 9 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:29)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 10 more
+java.lang.NullPointerException
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:27)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+java.lang.NullPointerException
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:27)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+java.lang.NullPointerException
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:27)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+java.lang.NullPointerException
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:27)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+Jul 21, 2014 2:44:01 PM org.endeavor.game.entity.item.impl.GlobalItemHandler spawnGroundItems
+INFO: Successfully loaded 1 global ground items.
+Jul 21, 2014 2:44:01 PM org.endeavor.engine.network.mysql.Database connect
+INFO: Connecting to MySQL...
+Jul 21, 2014 2:45:57 PM org.endeavor.game.entity.item.impl.GlobalItemHandler spawnGroundItems
+INFO: Successfully loaded 1 global ground items.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 9 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:29)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 10 more
+java.lang.NullPointerException
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:27)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+java.lang.NullPointerException
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:27)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+java.lang.NullPointerException
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:27)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+java.lang.NullPointerException
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:27)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+Jul 21, 2014 3:59:09 PM org.endeavor.game.entity.item.impl.GlobalItemHandler spawnGroundItems
+INFO: Successfully loaded 1 global ground items.
+java.lang.NullPointerException
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:27)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+Jul 21, 2014 3:59:51 PM org.endeavor.game.entity.item.impl.GlobalItemHandler spawnGroundItems
+INFO: Successfully loaded 1 global ground items.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 10 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:29)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 10 more
+Jul 21, 2014 4:34:33 PM org.endeavor.game.entity.item.impl.GlobalItemHandler spawnGroundItems
+INFO: Successfully loaded 1 global ground items.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 9 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+	at org.endeavor.engine.network.mysql.statement.impl.login.LoginSalt.execute(LoginSalt.java:29)
+	at org.endeavor.engine.LoginThread.cycle(LoginThread.java:96)
+	at org.endeavor.engine.LoginThread.run(LoginThread.java:60)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 10 more
+Jul 21, 2014 9:22:53 PM org.endeavor.game.entity.item.impl.GlobalItemHandler spawnGroundItems
+INFO: Successfully loaded 1 global ground items.
+Jul 21, 2014 9:33:34 PM org.endeavor.game.entity.item.impl.GlobalItemHandler spawnGroundItems
+INFO: Successfully loaded 1 global ground items.
