@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<FoodDefinition>
+		<id>3146</id>
+		<name>Poison Karambwan</name>
+		<heal>-5</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>712</id>
+		<name>Tea</name>
+		<heal>1</heal>
+		<delay>3</delay>
+		<replaceId>1980</replaceId>
+		<message>You drink the tea.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>319</id>
+		<name>Anchovies</name>
+		<heal>1</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Anchovies.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>325</id>
+		<name>Sardine</name>
+		<heal>4</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Sardine.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>329</id>
+		<name>Salmon</name>
+		<heal>9</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Salmon.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>333</id>
+		<name>Trout</name>
+		<heal>7</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Trout.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>339</id>
+		<name>Cod</name>
+		<heal>7</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Cod.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>347</id>
+		<name>Herring</name>
+		<heal>5</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Herring.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>351</id>
+		<name>Pike</name>
+		<heal>8</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Pike.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>355</id>
+		<name>Mackerel</name>
+		<heal>6</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Mackerel.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>361</id>
+		<name>Tuna</name>
+		<heal>10</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Tuna.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>365</id>
+		<name>Bass</name>
+		<heal>13</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Bass.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>373</id>
+		<name>Swordfish</name>
+		<heal>14</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Swordfish.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>379</id>
+		<name>Lobster</name>
+		<heal>12</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Lobster.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>385</id>
+		<name>Shark</name>
+		<heal>20</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Shark.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>391</id>
+		<name>Manta ray</name>
+		<heal>22</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Manta ray.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>397</id>
+		<name>Sea turtle</name>
+		<heal>21</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Sea turtle.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>1891</id>
+		<name>Cake</name>
+		<heal>4</heal>
+		<delay>3</delay>
+		<replaceId>1893</replaceId>
+		<message>You eat the Cake.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>1893</id>
+		<name>2/3 cake</name>
+		<heal>4</heal>
+		<delay>3</delay>
+		<replaceId>1895</replaceId>
+		<message>You eat the 2/3 cake.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>1895</id>
+		<name>Slice of cake</name>
+		<heal>4</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Slice of cake.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>1897</id>
+		<name>Chocolate cake</name>
+		<heal>4</heal>
+		<delay>3</delay>
+		<replaceId>1899</replaceId>
+		<message>You eat the Chocolate cake.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>1899</id>
+		<name>2/3 chocolate cake</name>
+		<heal>4</heal>
+		<delay>3</delay>
+		<replaceId>1901</replaceId>
+		<message>You eat the 2/3 chocolate cake.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>1901</id>
+		<name>Chocolate slice</name>
+		<heal>4</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Chocolate slice.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2140</id>
+		<name>Cooked chicken</name>
+		<heal>3</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Cooked chicken.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2142</id>
+		<name>Cooked meat</name>
+		<heal>3</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Cooked meat.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2289</id>
+		<name>Plain pizza</name>
+		<heal>7</heal>
+		<delay>3</delay>
+		<replaceId>2291</replaceId>
+		<message>You eat the Plain pizza.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2291</id>
+		<name>1/2 plain pizza</name>
+		<heal>7</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the 1/2 plain pizza.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2293</id>
+		<name>Meat pizza</name>
+		<heal>8</heal>
+		<delay>3</delay>
+		<replaceId>2295</replaceId>
+		<message>You eat the Meat pizza.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2295</id>
+		<name>1/2 meat pizza</name>
+		<heal>8</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the 1/2 meat pizza.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2297</id>
+		<name>Anchovy pizza</name>
+		<heal>9</heal>
+		<delay>3</delay>
+		<replaceId>2299</replaceId>
+		<message>You eat the Anchovy pizza.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2299</id>
+		<name>1/2 anchovy pizza</name>
+		<heal>9</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the 1/2 anchovy pizza.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2301</id>
+		<name>Pineapple pizza</name>
+		<heal>11</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Pineapple pizza.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2309</id>
+		<name>Bread</name>
+		<heal>5</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Bread.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2323</id>
+		<name>Apple pie</name>
+		<heal>7</heal>
+		<delay>1</delay>
+		<replaceId>2335</replaceId>
+		<message>You eat the Apple pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2325</id>
+		<name>Redberry pie</name>
+		<heal>5</heal>
+		<delay>1</delay>
+		<replaceId>2333</replaceId>
+		<message>You eat the Redberry pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2327</id>
+		<name>Meat pie</name>
+		<heal>6</heal>
+		<delay>1</delay>
+		<replaceId>2331</replaceId>
+		<message>You eat the Meat pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2331</id>
+		<name>Half a meat pie</name>
+		<heal>6</heal>
+		<delay>1</delay>
+		<replaceId>2313</replaceId>
+		<message>You eat the Half a meat pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2333</id>
+		<name>Half a redberry pie</name>
+		<heal>5</heal>
+		<delay>1</delay>
+		<replaceId>2313</replaceId>
+		<message>You eat the Half a redberry pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>2335</id>
+		<name>Half an apple pie</name>
+		<heal>7</heal>
+		<delay>1</delay>
+		<replaceId>2313</replaceId>
+		<message>You eat the Half an apple pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>4291</id>
+		<name>Cooked chicken</name>
+		<heal>3</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Cooked chicken.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>4293</id>
+		<name>Cooked meat</name>
+		<heal>3</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Cooked meat.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>4561</id>
+		<name>Purple sweets</name>
+		<heal>3</heal>
+		<delay>1</delay>
+		<replaceId>-1</replaceId>
+		<message>The sugary goodness heals some energy.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>6701</id>
+		<name>Baked potato</name>
+		<heal>4</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Baked potato.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>6703</id>
+		<name>Potato with butter</name>
+		<heal>14</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Potato with butter.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>6705</id>
+		<name>Potato with cheese</name>
+		<heal>16</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Potato with cheese.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>6969</id>
+		<name>Shark</name>
+		<heal>20</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Shark.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7054</id>
+		<name>Chilli potato</name>
+		<heal>14</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Chilli potato.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7056</id>
+		<name>Egg potato</name>
+		<heal>16</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Egg potato.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7060</id>
+		<name>Tuna potato</name>
+		<heal>22</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Tuna potato.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7062</id>
+		<name>Chilli con carne</name>
+		<heal>5</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Chilli con carne.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7064</id>
+		<name>Egg and tomato</name>
+		<heal>5</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Egg and tomato.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7068</id>
+		<name>Tuna and corn</name>
+		<heal>13</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Tuna and corn.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7072</id>
+		<name>Spicy sauce</name>
+		<heal>2</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Spicy sauce.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7078</id>
+		<name>Scrambled egg</name>
+		<heal>5</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Scrambled egg.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7082</id>
+		<name>Fried mushrooms</name>
+		<heal>5</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Fried mushrooms.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7084</id>
+		<name>Fried onions</name>
+		<heal>5</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Fried onions.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7178</id>
+		<name>Garden pie</name>
+		<heal>6</heal>
+		<delay>1</delay>
+		<replaceId>7180</replaceId>
+		<message>You eat the Garden pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7180</id>
+		<name>Half a garden pie</name>
+		<heal>6</heal>
+		<delay>1</delay>
+		<replaceId>2313</replaceId>
+		<message>You eat the Half a garden pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7188</id>
+		<name>Fish pie</name>
+		<heal>6</heal>
+		<delay>1</delay>
+		<replaceId>7190</replaceId>
+		<message>You eat the Fish pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7190</id>
+		<name>Half a fish pie</name>
+		<heal>6</heal>
+		<delay>1</delay>
+		<replaceId>2313</replaceId>
+		<message>You eat the Half a fish pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7198</id>
+		<name>Admiral pie</name>
+		<heal>6</heal>
+		<delay>1</delay>
+		<replaceId>7200</replaceId>
+		<message>You eat the Admiral pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7200</id>
+		<name>Half an admiral pie</name>
+		<heal>6</heal>
+		<delay>1</delay>
+		<replaceId>2313</replaceId>
+		<message>You eat the Half an admiral pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7208</id>
+		<name>Wild pie</name>
+		<heal>11</heal>
+		<delay>1</delay>
+		<replaceId>7210</replaceId>
+		<message>You eat the Wild pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7210</id>
+		<name>Half a wild pie</name>
+		<heal>11</heal>
+		<delay>1</delay>
+		<replaceId>2313</replaceId>
+		<message>You eat the Half a wild pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7218</id>
+		<name>Summer pie</name>
+		<heal>11</heal>
+		<delay>1</delay>
+		<replaceId>7220</replaceId>
+		<message>You eat the Summer pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7220</id>
+		<name>Half a summer pie</name>
+		<heal>11</heal>
+		<delay>1</delay>
+		<replaceId>2313</replaceId>
+		<message>You eat the Half a summer pie.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>7946</id>
+		<name>Monkfish</name>
+		<heal>16</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Monkfish.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>10476</id>
+		<name>Purple sweets</name>
+		<heal>3</heal>
+		<delay>1</delay>
+		<replaceId>-1</replaceId>
+		<message>The sugary goodness heals some energy.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>13433</id>
+		<name>Crayfish</name>
+		<heal>2</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Crayfish.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>14825</id>
+		<name>Monkfish</name>
+		<heal>16</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Monkfish.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>14831</id>
+		<name>Swordfish</name>
+		<heal>14</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Swordfish.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>15266</id>
+		<name>Cavefish</name>
+		<heal>20</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Cavefish.</message>
+	</FoodDefinition>
+	<FoodDefinition>
+		<id>15272</id>
+		<name>Rocktail</name>
+		<heal>23</heal>
+		<delay>3</delay>
+		<replaceId>-1</replaceId>
+		<message>You eat the Rocktail.</message>
+	</FoodDefinition>
+</list>

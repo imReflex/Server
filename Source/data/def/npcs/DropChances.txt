@@ -1,0 +1,123 @@
+//must keep same format (10 = 1%)
+
+6571:30//Uncut onyx
+11235:40//Dark bow
+4151:10//Abyssal whip
+7380:35//D'hide chaps (t)
+13870:10//Morrigan's leather body
+7382:35//D'hide chaps (g)
+13864:10//Zuriel's hood
+11212:50//Dragon arrow
+7376:35//D'hide body (t)
+13867:10//Zuriel's staff
+7378:35//D'hide chaps (g)
+13861:10//Zuriel's robe bottom
+6528:25//Tzhaar-ket-om
+6529:110//Tokkul
+7384:35//D'hide chaps (t)
+13858:10//Zuriel's robe top
+13884:10//Statius's platebody
+15490:10//Focus sight
+15488:10//Hexcrest
+13887:10//Vesta's chainbody
+11702:10//Armadyl hilt
+17293:10//Doomcore staff
+11706:25//Saradomin hilt
+13876:10//Morrigan's coif
+7372:35//D'hide body (t)
+11704:20//Bandos hilt
+7374:35//D'hide body (g)
+13879:10//Morrigan's javelin
+11710:15//Godsword shard 1
+13873:10//Morrigan's leather chaps
+11708:20//Zamorak hilt
+7370:35//D'hide body (g)
+13899:10//Vesta's longsword
+15606:27//Infinity top
+11718:17//Armadyl helmet
+13896:10//Statius's full helm
+13902:10//Statius's warhammer
+15241:3//Hand cannon
+11712:15//Godsword shard 2
+11714:15//Godsword shard 3
+15612:27//Infinity top
+11724:15//Bandos chestplate
+13890:10//Statius's platelegs
+15614:27//Infinity hat
+11726:14//Bandos tassets
+15608:27//Infinity hat
+11720:15//Armadyl chestplate
+13893:10//Vesta's plateskirt
+15610:27//Infinity bottoms
+11722:16//Armadyl plateskirt
+4214:30//Crystal bow full
+11732:20//Dragon boots
+18336:15//Scroll of life
+18341:12//Nature staff
+11728:27//Bandos boots
+18340:12//Anti-poison totem
+15259:5//Dragon pickaxe
+11730:25//Saradomin sword
+3483:20//Gilded platelegs
+18347:26//Mercenary's gloves
+18346:16//Tome of frost
+3481:25//Gilded platebody
+3486:20//Gilded full helm
+3488:20//Gilded kiteshield
+14484:6//Dragon claws
+14474:10//Ruined dragon armour slice
+14472:10//Ruined dragon armour lump
+6889:20//Mages' book
+14476:10//Ruined dragon armour shard
+10887:20//Barrelchest anchor
+7158:7//Dragon 2h sword
+10564:30//Granite body
+13746:15//Arcane sigil
+13750:15//Elysian sigil
+6914:25//Master wand
+13748:15//Divine sigil
+13754:25//Holy elixir
+13752:15//Spectral sigil
+11286:20//Draconic visage
+15403:30//Balmung
+13734:45//Spirit shield
+3140:25//Dragon chainbody
+10589:65//Granite helm
+2581:20//Robin hood hat
+10356:25//Amulet of glory (t3)
+2577:20//Ranger boots
+2579:25//Wizard boots
+10354:25//Amulet of glory (t4)
+15616:27//Infinity bottoms
+10364:35//Strength amulet (t)
+4225:15//Crystal shield full
+15618:27//Infinity top
+10366:35//Amulet of magic (t)
+15620:27//Infinity hat
+10360:25//Amulet of glory (t1)
+15622:27//Infinity bottoms
+10362:25//Amulet of glory (t)
+13290:35//Leaf-bladed sword
+8921:15//Black mask
+14684:19//Zanik's crossbow
+6737:25//Berserker ring
+15486:25//Staff of light
+6739:25//Dragon hatchet
+15126:25//Amulet of ranging
+6524:45//Toktz-ket-xil
+11335:15//Dragon full helm
+6731:25//Seers' ring
+6733:25//Archers' ring
+6735:25//Warrior ring
+3122:35//Granite shield
+18659:5//Steadfast Boots
+18658:5//Ragefire boots
+18660:5//Glaiven boots
+9944:15//bomber jacket
+11974:15//artefact receipt
+14114:12//sacred clay robe top
+14115:12//sacred clay robe bottoms
+14116:12//sacred clay hat
+15378:4//barrows icon
+15243:86//Hand cannon shots
+21369:2//Whip vine
