@@ -1,0 +1,11 @@
+<config>
+    <jars single-jar="client2.jar">
+        <jar in="client.jar" out="client2.jar"/>
+    </jars>
+
+    <keep-names>
+        <class template="class *.Client"/>
+    </keep-names>
+
+    <property name="log-file" value="log.xml"/>
+</config>

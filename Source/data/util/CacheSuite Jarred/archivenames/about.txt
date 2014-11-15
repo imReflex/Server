@@ -1,0 +1,17 @@
+These files contain any known file names contained in each archive. The cache suite reads these files, checks the archive, and 
+if it finds a match, displays the file name instead of its identifier.
+
+If you discover the name of any file not listed, then you can simply add it to the appropriate file.
+
+The appropriate file is the one that corresponds to the jag #. Heres a list of what each jag # is
+
+1 - Title
+2 - Config
+3 - Interface
+4 - Media
+5 - Versionlist
+6 - Textures
+7 - Wordenc
+8 - Sounds
+
+-- Tom

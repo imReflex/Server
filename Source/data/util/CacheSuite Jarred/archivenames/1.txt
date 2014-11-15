@@ -1,0 +1,10 @@
+p11_full.dat
+index.dat
+p12_full.dat
+b12_full.dat
+q8_full.dat
+title.dat
+logo.dat
+titlebox.dat
+titlebutton.dat
+runes.dat

@@ -1,0 +1,4 @@
+fragmentsenc.txt
+badenc.txt
+domainenc.txt
+tldlist.txt

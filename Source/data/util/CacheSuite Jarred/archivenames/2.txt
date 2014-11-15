@@ -1,0 +1,12 @@
+seq.dat
+loc.dat
+loc.idx
+flo.dat
+obj.dat
+obj.idx
+npc.dat
+npc.idx
+idk.dat
+spotanim.dat
+varp.dat
+varbit.dat
