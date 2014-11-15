@@ -1,0 +1,2 @@
+gzip -v *.
+pause
