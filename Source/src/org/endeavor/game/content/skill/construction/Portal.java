@@ -4,7 +4,7 @@ package org.endeavor.game.content.skill.construction;
  * 
  * @author Owner Blade
  */
-public class Portal {
+/*constructionremovedpublic class Portal {
 	
 	private int id, roomX, roomY, roomZ;
 	private int type;
@@ -39,4 +39,4 @@ public class Portal {
 		this.type = type;
 	}
 	
-}
+}*/
