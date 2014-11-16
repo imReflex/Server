@@ -3,14 +3,15 @@ package org.endeavor.game.content.skill.construction;
 import java.util.ArrayList;
 
 import org.endeavor.game.entity.mob.Mob;
+import org.endeavor.game.entity.player.Player;
 
 /**
  * 
  * @author Owner Blade
  *
  */
-public class House extends MapInstance {
-
+/*public class House extends MapInstance {
+	/*constructionremoved
 	private HouseDungeon dungeon;
 	private ArrayList<PlayerFurniture> litBurners;
 	private ArrayList<PlayerFurniture> furnitureActivated;
@@ -208,5 +209,5 @@ public class House extends MapInstance {
 		super.setOwner(p);
 		dungeon.setOwner(p);
 	}
-	
-}
+	*//*
+}*/
