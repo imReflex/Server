@@ -12,7 +12,7 @@ import org.endeavor.game.content.combat.Hit;
 import org.endeavor.game.content.minigames.armsrace.ARConstants;
 import org.endeavor.game.content.minigames.dungeoneering.DungGame;
 import org.endeavor.game.content.minigames.pestcontrol.PestControlGame;
-import org.endeavor.game.content.skill.construction.MapInstance;
+//import org.endeavor.game.content.skill.construction.MapInstance;
 import org.endeavor.game.entity.following.Following;
 import org.endeavor.game.entity.mob.Mob;
 import org.endeavor.game.entity.mob.impl.Revenant;
@@ -179,14 +179,14 @@ public abstract class Entity implements CombatInterface, Serializable {
 	/**
 	 * Construction map instance
 	 */
-	private transient MapInstance mapInstance = null;
+	//private transient MapInstance mapInstance = null;
 	
 	
 	public final void initEntity() {
 		updateFlags = new UpdateFlags();
 		combat = new Combat(this);
 		attributes = new Attributes();
-		mapInstance = null;
+	//	mapInstance = null;
 	}
 
 	/**
