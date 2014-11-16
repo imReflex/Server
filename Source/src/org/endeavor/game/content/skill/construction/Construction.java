@@ -3,11 +3,15 @@ package org.endeavor.game.content.skill.construction;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import org.endeavor.Server;
 import org.endeavor.engine.task.TaskQueue;
 import org.endeavor.engine.utility.Misc;
-import org.endeavor.game.content.skill.construction.ConstructionData.Furniture;
-import org.endeavor.game.content.skill.construction.ConstructionData.HotSpots;
-import org.endeavor.game.content.skill.construction.Palette.PaletteTile;
+import org.endeavor.game.content.dialogue.DialogueManager;
+//import org.endeavor.game.content.skill.construction.ConstructionData.Butlers;
+//import org.endeavor.game.content.skill.construction.ConstructionData.Furniture;
+//import org.endeavor.game.content.skill.construction.ConstructionData.HotSpots;
+//import org.endeavor.game.content.skill.construction.ConstructionData.RoomData;
+//import org.endeavor.game.content.skill.construction.Palette.PaletteTile;
 import org.endeavor.game.entity.Animation;
 import org.endeavor.game.entity.Location;
 import org.endeavor.game.entity.mob.Mob;
@@ -19,8 +23,8 @@ import org.endeavor.game.entity.player.Player;
  *
  */
 public class Construction {
-
-	public static void createPalette(Player p) {
+//construction removed
+	/*public static void createPalette(Player p) {
 		Palette palette = new Palette();
 		for (int z = 0; z < 4; z++) {
 			for (int x = 0; x < 13; x++) {
@@ -109,7 +113,7 @@ public class Construction {
 		me.moveTo(new Position(ConstructionData.MIDDLE_X, ConstructionData.MIDDLE_Y, 0));
 		me.getMovementQueue().setMovementStatus(MovementStatus.CANNOT_MOVE);
 		me.getPacketSender().sendInterface(28640);
-		GameServer.getTaskScheduler().schedule(new Task(1, me, true) {
+		Server.getTaskScheduler().schedule(new Task(1, me, true) {
 			int ticks = 0;
 			@Override
 			public void execute() {
@@ -226,7 +230,7 @@ public class Construction {
 		}
 		placeAllFurniture(p, chunkX, chunkY, p.getFields().inDungeon() ? 4 : p.getLocation().getZ());
 		p.getPacketSender().sendInterfaceRemoval();*/
-
+/*//constructionremoved
 	}
 	public static void placeMobs(Player p)
 	{
@@ -357,7 +361,7 @@ public class Construction {
 		int rotation = ConstructionData.RoomData.getFirstElegibleRotation(rd,
 				direction);
 		if (toHeight == 100) {
-			/** Create room from stair **/
+			/** Create room from stair **//*constructionremoved
 			direction = SAME;
 			toHeight = 1;
 			rotation = p.getMapInstance().getOwner().houseRooms[0][myTiles[0] - 1][myTiles[1] - 1]
@@ -411,7 +415,8 @@ public class Construction {
 		/**
 		 * Create dungeon room from entrance
 		 */
-		if (toHeight == 102 || toHeight == 103) {
+	/*//constructionremoved
+	if (toHeight == 102 || toHeight == 103) {
 			direction = SAME;
 			toHeight = 4;
 			rotation = p.getMapInstance().getOwner().houseRooms[0][myTiles[0] - 1][myTiles[1] - 1]
@@ -477,7 +482,7 @@ public class Construction {
 			p.getPacketSender().constructMapRegionForConstruction(house.getPalette());
 		}
 		p.getPacketSender().sendInterfaceRemoval();*/
-
+/*//constructionremoved
 	}
 
 	public static void deleteRoom(Player p, int toHeight) {
@@ -573,7 +578,8 @@ public class Construction {
 		}
 		p.getPacketSender().sendInterfaceRemoval();
 */
-		Iterator<PlayerFurniture> iterator = p.playerFurniture.iterator();
+		/*constructionremoved
+	Iterator<PlayerFurniture> iterator = p.playerFurniture.iterator();
 		while (iterator.hasNext()) {
 			PlayerFurniture pf = iterator.next();
 			if (pf.getRoomX() == chunkX
@@ -754,6 +760,8 @@ public class Construction {
 				/**
 				 * Counter room clockwise
 				 */
+	
+	/*//constructionremoved
 				rotateRoom(0, p);
 				return true;
 			}
@@ -789,7 +797,7 @@ public class Construction {
 			{
 				/**
 				 * Counter room clockwise
-				 */
+				 *//*//constructionremoved
 				rotateRoom(1, p);
 				return true;
 			}
@@ -818,7 +826,7 @@ public class Construction {
 			{
 				/**
 				 * Remove room
-				 */
+				 *//*//constructionremoved
 				if (p.getLocation().getZ() == 0 && !p.getFields().inDungeon())
 					deleteRoom(p, 0);
 				if (p.getFields().inDungeon())
@@ -2713,7 +2721,7 @@ public class Construction {
 				//DialogueManager.sendDialogues(p, 476, 4234);
 				else
 					//DialogueManager.sendDialogues(p, 487, 4234);
-					break;*/
+					break;*//*construcionremoved
 		case 13405:
 			if(p.getMapInstance() == null)
 				return;
@@ -2777,7 +2785,7 @@ public class Construction {
 			break;
 			/**
 			 * Dungeon doors
-			 */
+			 *//*//constructionremoved
 		case 13347:
 		case 13346:
 		case 13344:
@@ -3021,7 +3029,7 @@ public class Construction {
 						p1.getInventory().add(7677, 1);
 						p1.getPacketSender().sendMessage("These magic stones will guide you to me!");
 					}
-				}*/
+				}*//*//constructionremoved
 			}
 			break;
 		case 13404:
@@ -3326,7 +3334,7 @@ public class Construction {
 			break;
 			/**
 			 * Throne room thrones
-			 */
+			 *//*/constructionremoved
 		case 13665:
 		case 13666:
 		case 13667:
@@ -4266,5 +4274,5 @@ public class Construction {
 	public static int getYTilesOnTile(int[] tile, int myY) {
 		int baseY = ConstructionData.BASE_Y + (tile[1] * 8);
 		return myY - baseY;
-	}
+	}*/
 }
