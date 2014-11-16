@@ -12,11 +12,11 @@ import org.endeavor.game.entity.player.Player;
  * @author Owner Blade
  *
  */
-public class MapInstance implements Serializable {
+/*constructionremovedpublic class MapInstance implements Serializable {
 
 	/**
 	 * 
-	 */
+	 *//*constructionremoved
 	private static final long serialVersionUID = -2164645489857379965L;
 	private Palette palette;
 	private Palette secondaryPalette;
@@ -122,4 +122,4 @@ public class MapInstance implements Serializable {
 	public void setLeaveY(int leaveY) {
 		this.leaveY = leaveY;
 	}
-}
+}*/
