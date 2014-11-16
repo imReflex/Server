@@ -528,7 +528,7 @@ public class Player extends Entity {
 	}
 
 	public boolean login(boolean starter, PlayerDetails pd) throws Exception {
-		/*this.initEntity();*///remoconstruction
+		/*this.initEntity();*///remoconstruction//
 		this.client = pd.getClient();
 		if(this.client != null) {
 			this.client.setPlayer(this);
