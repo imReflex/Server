@@ -17,7 +17,7 @@ public class ConstructionData {
 	
 
 	
-	public static final int EMPTY = 0, BUILDABLE = 1, GARDEN = 2, PARLOUR = 3,
+	/*//constructionremovedpublic static final int EMPTY = 0, BUILDABLE = 1, GARDEN = 2, PARLOUR = 3,
 			KITCHEN = 4, DINING_ROOM = 5, WORKSHOP = 6, BEDROOM = 7,
 			SKILL_ROOM = 8, QUEST_HALL_DOWN = 9, GAMES_ROOM = 10,
 			COMBAT_ROOM = 11, QUEST_ROOM = 12, MENAGERY = 13, STUDY = 14,
@@ -32,11 +32,11 @@ public class ConstructionData {
 	public static enum Portals
 	{
 		VARROCK(1, new Location(ConstructionConstants.VARROCK_X, ConstructionConstants.VARROCK_Y), 25,
-				new int[][] {{563, 100}, {554, 100/*fire*/}, {556, 300 /*Air*/}}, new int[] {13615, 13622, 13629}),
+				new int[][] {{563, 100}, {554, 100/*fire*//*//constructionremoved}, {556, 300 /*Air*//*constructionremoved}}, new int[] {13615, 13622, 13629}),
 		LUMBRIDGE(2, new Location(ConstructionConstants.LUMBY_X, ConstructionConstants.LUMBY_Y), 31,
-				new int[][] {{563, 100}, {557, 100/*EARTH*/}, {556, 300}}, new int[] {13616, 13623, 13630}),
+				new int[][] {{563, 100}, {557, 100/*EARTH*//*constructionremoved}, {556, 300}}, new int[] {13616, 13623, 13630}),
 		FALADOR(3, new Location(ConstructionConstants.FALADOR_X, ConstructionConstants.FALADOR_Y), 37,
-				new int[][] {{563, 100}, {555, 100/*water*/}, {556, 300}}, new int[] {13617, 13624, 13631}),
+				new int[][] {{563, 100}, {555, 100/*water*//*constructionremoved}, {556, 300}}, new int[] {13617, 13624, 13631}),
 		CAMELOT(4, new Location(ConstructionConstants.CAMELOT_X, ConstructionConstants.CAMELOT_Y), 45,
 				new int[][] {{563, 200}, {556, 500}}, new int[] {13618, 13625, 13632}),
 		ARDOUGNE(5, new Location(ConstructionConstants.ARDOUGNE_X, ConstructionConstants.ARDOUGNE_Y), 51,
@@ -413,7 +413,7 @@ public class ConstructionData {
 	{
 		/**
 		 * Garden
-		 */
+		 *//*constructionremoved
 		CENTREPIECE(0, 15361, 3, 3, 0, ConstructionData.GARDEN),
 		TREE_1(1, 15362, 1, 5, 0, ConstructionData.GARDEN),
 		TREE_2(1, 15363, 6, 6, 0, ConstructionData.GARDEN),
@@ -423,7 +423,7 @@ public class ConstructionData {
 		BIG_PLANT_2(5, 15365, 0, 0 ,0, ConstructionData.GARDEN),
 		/**
 		 * Parlour
-		 */
+		 *//*constructionremoved
 		PARLOUR_CHAIR_1(6, 15410, 2, 4, 2, ConstructionData.PARLOUR, 11),
 		PARLOUR_CHAIR_2(6, 15412, 4, 3, 2, ConstructionData.PARLOUR),
 		PARLOUR_CHAIR_3(6, 15411, 5, 4, 1, ConstructionData.PARLOUR, 11),
@@ -444,7 +444,7 @@ public class ConstructionData {
 		
 		/**
 		 * Kitchen
-		 */
+		 *//*constructionremoved
 		KITCHEN_CAT_BASKET(11, 15402, 0, 0, 0, ConstructionData.KITCHEN, 22),
 		KITCHEN_TABLE(12, 15405, 3, 3, 0, ConstructionData.KITCHEN),
 		KITCHEN_BARREL(13, 15401, 0, 6, 3, ConstructionData.KITCHEN),
@@ -457,7 +457,7 @@ public class ConstructionData {
 		
 		/**
 		 * Dining room
-		 */
+		 *//*constructionremoved
 		DINING_CURTAIN_1(10, 15302, 0, 2, 0, ConstructionData.DINING_ROOM, 5, true),
 		DINING_CURTAIN_2(10, 15302, 0, 5, 0, ConstructionData.DINING_ROOM, 5, true),
 		DINING_CURTAIN_3(10, 15302, 7, 5, 2, ConstructionData.DINING_ROOM, 5, true),
@@ -480,7 +480,7 @@ public class ConstructionData {
 		
 		/**
 		 * Workshop
-		 */
+		 *//*constructionremoved
 		WORKSHOP_TOOL_1(22, 15443, 1, 0, 3, ConstructionData.WORKSHOP, 5),
 		WORKSHOP_TOOL_2(22, 15445, 0, 1, 0, ConstructionData.WORKSHOP, 5),
 		WORKSHOP_TOOL_3(22, 15447, 0, 6, 0, ConstructionData.WORKSHOP, 5),
@@ -493,7 +493,7 @@ public class ConstructionData {
 		
 		/**
 		 * Bedroom
-		 */
+		 *//*constructionremoved
 		BEDROOM_RUG_1(7, 15266, 2, 2, 0, ConstructionData.BEDROOM, 22, new Dimension(5, 3)),
 		BEDROOM_RUG_2(7, 15265, 2, 2, 0, ConstructionData.BEDROOM, 22, new Dimension(5, 3)),
 		BEDROOM_RUG_3(7, 15264, 2, 2, 0, ConstructionData.BEDROOM, 22, new Dimension(5, 3)),
@@ -514,7 +514,7 @@ public class ConstructionData {
 		
 		/**
 		 * Skill hall
-		 */
+		 *//*constructionremoved
 		SKILL_HALL_RUG_1(7, 15379, 2, 2, 0, ConstructionData.SKILL_ROOM, 22, new Dimension(5, 5)),
 		SKILL_HALL_RUG_2(7, 15378, 2, 2, 0, ConstructionData.SKILL_ROOM, 22, new Dimension(5, 5)),
 		SKILL_HALL_RUG_3(7, 15377, 2, 2, 0, ConstructionData.SKILL_ROOM, 22, new Dimension(5, 5)),
@@ -539,7 +539,7 @@ public class ConstructionData {
 		
 		/**
 		 * Games room
-		 */
+		 *//*constructionremoved
 		RANGING_GAME(38, 15346, 1, 0, 2, ConstructionData.GAMES_ROOM),
 		STONE_SPACE(39, 15344, 2, 4, 0, ConstructionData.GAMES_ROOM),
 		ELEMENTAL_BALANCE(40, 15345, 5, 4, 0, ConstructionData.GAMES_ROOM),
@@ -548,7 +548,7 @@ public class ConstructionData {
 				
 		/**
 		 * Combat room
-		 */
+		 *//*constructionremoved
 		STORAGE_RACK(43, 15296, 3, 7, 0, ConstructionData.COMBAT_ROOM),
 		COMBAT_WALL_DEC_1(19, 15297, 1, 7, 1, ConstructionData.COMBAT_ROOM, 5),
 		COMBAT_WALL_DEC_2(19, 15297, 6, 7, 1, ConstructionData.COMBAT_ROOM, 5),
@@ -570,7 +570,7 @@ public class ConstructionData {
 		COMBAT_RING_16(44, 15277, 1, 1, 0, ConstructionData.COMBAT_ROOM),
 		/**
 		 * Quest hall
-		 */
+		 *//*constructionremoved
 		QUEST_HALL_BOOKCASE(8, 15397, 0, 1, 0, ConstructionData.QUEST_ROOM),
 		QUEST_HALL_MAP(45, 15396, 7, 1, 2, ConstructionData.QUEST_ROOM, 5),
 		QUEST_HALL_SWORD(46, 15395, 7, 6, 2, ConstructionData.QUEST_ROOM, 5),
@@ -595,7 +595,7 @@ public class ConstructionData {
 		
 		/**
 		 * Menagerie
-		 */
+		 *//*constructionremoved
 		MENAGERIE_PET_HOUSE(50, 44909, 1, 1, 2, ConstructionData.MENAGERY),
 		MENAGERIE_PET_FEEDER(51, 44910, 5, 1, 3, ConstructionData.MENAGERY),
 		MENAGERIE_OBELISK(52, 44911, 5, 5, 3, ConstructionData.MENAGERY),
@@ -604,7 +604,7 @@ public class ConstructionData {
 		
 		/**
 		 * Study
-		 */
+		 *//*constructionremoved
 		STUDY_WALL_CHART_1(54, 15423, 0, 1, 0, ConstructionData.STUDY, 5, true),
 		STUDY_WALL_CHART_2(54, 15423, 1, 7, 1, ConstructionData.STUDY, 5, true),
 		STUDY_WALL_CHART_3(54, 15423, 6, 7, 1, ConstructionData.STUDY, 5, true),
@@ -619,7 +619,7 @@ public class ConstructionData {
 		
 		/**
 		 * Costume room
-		 */
+		 *//*constructionremoved
 		COSTUME_TREASURE_CHEST(60, 18813, 0, 3, 3, ConstructionData.COSTUME_ROOM),
 		COSTUME_FANCY(61, 18814, 3, 3, 0, ConstructionData.COSTUME_ROOM),
 		TOY_BOX(62, 18812, 7, 3, 1, ConstructionData.COSTUME_ROOM),
@@ -628,7 +628,7 @@ public class ConstructionData {
 		CAPE_RACK(65, 18810, 6, 6, 1, ConstructionData.COSTUME_ROOM),
 		/**
 		 * Chapel
-		 */
+		 *//*constructionremoved
 		CHAPEL_STATUE_1(66, 15275, 0, 0, 2, ConstructionData.CHAPEL, 11, true),
 		CHAPEL_STATUE_2(66, 15275, 7, 0, 1, ConstructionData.CHAPEL, 11, true),
 		CHAPEL_LAMP_1(67, 15271, 1, 5, 2, ConstructionData.CHAPEL, true),
@@ -649,7 +649,7 @@ public class ConstructionData {
 		
 		/**
 		 * Portal room
-		 */
+		 *//*constructionremoved
 
 		PORTAL_1(72, 15406, 0, 3, 1, ConstructionData.PORTAL_ROOM),
 		PORTAL_2(72, 15407, 3, 7, 2, ConstructionData.PORTAL_ROOM),
@@ -657,7 +657,7 @@ public class ConstructionData {
 		PORTAL_CENTREPIECE(73, 15409, 3, 3, 0, ConstructionData.PORTAL_ROOM),
 		/**
 		 * Formal garden
-		 */
+		 *//*constructionremoved
 		FORMAL_CENTREPIECE(74, 15368, 3, 3, 0, ConstructionData.FORMAL_GARDEN),
 		FORMAL_SMALL_PLANT_1_0(75, 15375, 5, 1, 2, ConstructionData.FORMAL_GARDEN, true),
 		FORMAL_SMALL_PLANT_1_1(75, 15375, 6, 2, 2, ConstructionData.FORMAL_GARDEN, true),
@@ -677,7 +677,7 @@ public class ConstructionData {
 		FORMAL_FENCE(78, 15369, 0, 0, 0, ConstructionData.FORMAL_GARDEN),
 		/**
 		 * Throne room
-		 */
+		 *//*constructionremoved
 		THRONE_ROOM_THRONE_1(79, 15426, 3, 6, 0, ConstructionData.THRONE_ROOM, true),
 		THRONE_ROOM_THRONE_2(79, 15426, 4, 6, 0, ConstructionData.THRONE_ROOM, true),
 		THRONE_ROOM_LEVER(80, 15435, 6, 6, 0, ConstructionData.THRONE_ROOM),
@@ -702,7 +702,7 @@ public class ConstructionData {
 		THRONE_BENCH_12(20, 15437, 7, 5, 1, ConstructionData.THRONE_ROOM, true),
 		/**
 		 * Oubliette
-		 */
+		 *//*constructionremoved
 		OUBLIETTE_FLOOR_1(85, 15350, 2, 2, 22, ConstructionData.OUBLIETTE),
 		OUBLIETTE_FLOOR_2(85, 15348, 2, 2, 22, ConstructionData.OUBLIETTE),
 		OUBLIETTE_FLOOR_3(85, 15347, 2, 2, 22, ConstructionData.OUBLIETTE),
@@ -722,7 +722,7 @@ public class ConstructionData {
 		OUBLIETTE_LIGHT_4(90, 15355, 7, 2, 2, ConstructionData.OUBLIETTE, 4, true),
 		/**
 		 * Corridor
-		 */
+		 *//*constructionremoved
 		CORRIDOR_LIGHT_1(90, 15330, 3, 1, 0, ConstructionData.CORRIDOR, 4, true),
 		CORRIDOR_LIGHT_2(90, 15330, 3, 6, 0, ConstructionData.CORRIDOR, 4, true),
 		CORRIDOR_LIGHT_3(90, 15330, 4, 1, 2, ConstructionData.CORRIDOR, 4, true),
@@ -741,7 +741,7 @@ public class ConstructionData {
 		
 		/**
 		 * junction
-		 */
+		 *//*constructionremoved
 		JUNCTION_TRAP_1(91, 15325, 3, 2, 0, ConstructionData.JUNCTION, 22, true),
 		JUNCTION_TRAP_2(91, 15325, 4, 2, 0, ConstructionData.JUNCTION, 22, true),
 		JUNCTION_TRAP_3(91, 15324, 3, 5, 0, ConstructionData.JUNCTION, 22, true),
@@ -755,7 +755,7 @@ public class ConstructionData {
 		JUNCTION_GUARD(87, 15323, 3, 3, 2, ConstructionData.JUNCTION),
 		/**
 		 * Dungeon stair room
-		 */
+		 *//*constructionremoved
 		DUNG_STAIR_LIGHT_1(90, 34138, 2, 1, 3, ConstructionData.DUNGEON_STAIR_ROOM, 4, true),
 		DUNG_STAIR_LIGHT_2(90, 15330, 1, 2, 0, ConstructionData.DUNGEON_STAIR_ROOM, 4, true),
 		DUNG_STAIR_LIGHT_3(90, 15330, 2, 6, 1, ConstructionData.DUNGEON_STAIR_ROOM, 4, true),
@@ -771,7 +771,7 @@ public class ConstructionData {
 		DUNG_STAIRS(36, 15380, 3, 3, 0, ConstructionData.DUNGEON_STAIR_ROOM),
 		/**
 		 * Pit
-		 */
+		 *//*constructionremoved
 		PIT_TRAP_1(93, 39230, 3, 1, 0, ConstructionData.PIT),
 		PIT_TRAP_2(93, 39231, 5, 3, 3, ConstructionData.PIT),
 		PIT_TRAP_3(93, 36692, 3, 5, 2, ConstructionData.PIT),
@@ -798,7 +798,7 @@ public class ConstructionData {
 		PIT_DOOR_8(92, 36672, 6, 4, 0, ConstructionData.PIT, 2),
 		/**
 		 * Treasure room
-		 */
+		 *//*constructionremoved
 		TREASURE_ROOM_DECORATION_1(89, 15331, 1, 2, 0, ConstructionData.TREASURE_ROOM, 4, true),
 		TREASURE_ROOM_DECORATION_2(89, 15331, 6, 2, 2, ConstructionData.TREASURE_ROOM, 4, true),
 		TREASURE_ROOM_LIGHT_1(90, 15330, 1, 5, 0, ConstructionData.TREASURE_ROOM, 4, true),
@@ -1054,7 +1054,7 @@ public class ConstructionData {
 		HUGE_PLANT(5, 13430, 100, 12, 8191,new int[][] {{8435, 1}}),
 		/**
 		 * Parlour
-		 */
+		 *//*constructionremoved
 		CRUDE_WOODEN_CHAIR(6, 13581, 66, 1, 8309,new int[][] {{PLANK, 2}, {NAILS, 2}}),
 		WOODEN_CHAIR(6, 13582, 96, 8, 8310,new int[][] {{PLANK, 3}, {NAILS, 3}}),
 		ROCKING_CHAIR(6, 13583, 96, 14, 8311,new int[][] {{PLANK, 3}, {NAILS, 3}}),
@@ -1076,7 +1076,7 @@ public class ConstructionData {
 		OPULENT_CURTAINS(10, 13605, 315, 40, 8324, new int[][] {{TEAK_PLANK, 3}, {CLOTH, 3}}),
 		/**
 		 * Kitchen
-		 */
+		 *//*constructionremoved
 		CAT_BLANKET(11, 13574, 15, 5, 8236, new int[][] {{CLOTH, 1}}),
 		CAT_BASKET(11, 13575, 58, 19, 8237, new int[][] {{PLANK, 2}, {NAILS, 2}}),
 		CUSHIONED_CAT_BASKET(11, 13576, 58, 33, 8238, new int[][] {{PLANK, 2}, {NAILS, 2}, {1737, 2}}),
@@ -1111,19 +1111,19 @@ public class ConstructionData {
 		TEAK_SHELVES_2(17, 13551, 930, 67, 8229, new int[][] {{TEAK_PLANK, 3}, {SOFT_CLAY, 6}}),
 		/**
 		 * bell pull
-		 */
+		 *//*constructionremoved
 		ROPE_BELL_PULL(18, 13307, 64, 26, 8099, new int[][] {{OAK_PLANK, 1}, {ROPE, 1}}),
 		BELL_PULL(18, 13308, 120, 37, 8100, new int[][] {{TEAK_PLANK, 1}, {CLOTH, 2}}),
 		POSH_BELL_PULL(18, 13309, 420, 60, 8101, new int[][] {{TEAK_PLANK, 1}, {CLOTH, 2}, {GOLD_LEAF, 1}}),
 		/**
 		 * Wall decoration (dining room)
-		 */
+		 *//*constructionremoved
 		OAK_DECORATION(19, 13798, 120, 16, 8102, new int[][] {{OAK_PLANK, 2}}),
 		TEAK_DECORATION(19, 13814, 180, 36, 8103, new int[][] {{TEAK_PLANK, 2}}),
 		GILDED_DECORATION(19, 13782, 1020, 56, 8104, new int[][] {{MAHOGANY_PLANK, 3}, {GOLD_LEAF, 2}}),
 		/**
 		 * Dining room seating
-		 */
+		 *//*constructionremoved
 		WOODEN_BENCH(20, 13300, 115, 10, 8108, new int[][] {{PLANK, 4}, {NAILS, 4}}),
 		OAK_BENCH(20, 13301, 240, 22, 8109, new int[][] {{OAK_PLANK, 4}}),
 		CARVED_OAK_BENCH(20, 13302, 240, 31, 8110, new int[][] {{OAK_PLANK, 4}}),
@@ -1133,7 +1133,7 @@ public class ConstructionData {
 		GILDED_BENCH(20, 13306, 1760, 61, 8114, new int[][] {{MAHOGANY_PLANK, 4}, {GOLD_LEAF, 4}}),
 		/**
 		 * Dining room table
-		 */
+		 *//*constructionremoved
 		WOOD_DINING_TABLE(21, 13293, 115, 10, 8115, new int[][] {{PLANK, 4}, {NAILS, 4}}),
 		OAK_TABLE(21, 13294, 240, 22, 8116, new int[][] {{OAK_PLANK, 4}}),
 		CARVED_OAK_TABLE(21, 13295, 360, 31, 8117, new int[][] {{OAK_PLANK, 5}}),
@@ -1143,7 +1143,7 @@ public class ConstructionData {
 		OPULENT_TABLE(21, 13299, 3100, 72, 8121, new int[][] {{MAHOGANY_PLANK, 6}, {CLOTH, 4}, {GOLD_LEAF, 4}, {MARBLE_BLOCK, 2}}),
 		/**
 		 * Workshop 
-		 */
+		 *//*constructionremoved
 		TOOL_STORE_1(22, 13699, 120, 15, 8384, new int[][] {{OAK_PLANK, 2}}),
 		TOOL_STORE_2(22, 13700, 120, 25, 8385, new int[][] {{OAK_PLANK, 2}}, 13699),
 		TOOL_STORE_3(22, 13701, 120, 35, 8386, new int[][] {{OAK_PLANK, 2}}, 13700),
@@ -1234,7 +1234,7 @@ public class ConstructionData {
 		MARBLE_SPIRAL_1(37, 13506, 4400, 97, 8259, new int[][] {{TEAK_PLANK, 10}, {MARBLE_BLOCK, 10}}),
 		/*
 		 * get me hotspot ids
-		 */
+		 *//*constructionremoved
 		CLAY_ATTACK_STONE(39, 13392, 100, 39, 8153, new int[][] {{SOFT_CLAY, 10}}),
 		ATTACK_STONE(39, 13393, 200, 59, 8154, new int[][] {{LIMESTONE_BRICK, 10}}),
 		MARBLE_ATTACK_STONE(39, 13394, 2000, 79, 8155, new int[][] {{MARBLE_BLOCK, 10}}),
@@ -1342,7 +1342,7 @@ public class ConstructionData {
 		
 		/*
 		 * Costume room
-		 */
+		 *//*constructionremoved
 		OAK_TREASURE_CHEST(60, 18804, 450, 48, 9839, new int[][] {{OAK_PLANK, 2}}),
 		TEAK_TREASURE_CHEST(60, 18806, 1300, 66, 9840, new int[][] {{TEAK_PLANK, 2}}),
 		MOHOGANY_TREASURE_CHEST(60, 18808, 2300, 84, 9841, new int[][] {{MAHOGANY_PLANK, 2}}),
@@ -1421,7 +1421,7 @@ public class ConstructionData {
 		
 		/*
 		 * Formal Garden
-		 */
+		 *//*constructionremoved
 		EXIT_PORTAL_(74, 13405, 100, 1, 8168, new int[][] {{IRON_BAR, 10}}),
 		GAZEBO(74, 13477, 1200, 65, 8192, new int[][] {{MAHOGANY_PLANK, 4},{STEEL_BAR, 4}}),
 		DUNGEON_ENTERANCE(74, 13409, 500, 70, 8172, new int[][] {{MARBLE_BLOCK, 1}}),
@@ -1455,7 +1455,7 @@ public class ConstructionData {
 		
 		/*
 		 * Throne room
-		 */
+		 *//*constructionremoved
 		OAK_THRONE(79, 13665, 800, 60, 8357, new int[][] {{OAK_PLANK, 5},{MARBLE_BLOCK, 2}}),
 		TEAK_THRONE(79, 13666, 1450, 67, 8358, new int[][] {{TEAK_PLANK, 5},{MARBLE_BLOCK, 2}}),
 		MAHOGANY_THRONE(79, 13667, 2200, 74, 8359, new int[][] {{MAHOGANY_PLANK, 10},{MARBLE_BLOCK, 3}}),
@@ -1487,7 +1487,7 @@ public class ConstructionData {
 		
 		/*
 		 * Oubliette room
-		 */
+		 *//*constructionremoved
 		TENTACLE_POOL(85, 13331, 326, 71, 8303, new int[][] {{BOW, 20},{COIN, 100000}}),
 		SPIKES(85, 13334, 623, 65, 8302, new int[][] {{STEEL_BAR, 20},{COIN, 50000}}),
 		FLAME_PIT(85, 13337, 357, 77, 8304, new int[][] {{STEEL_BAR, 20},{COIN, 50000}}),
@@ -1531,7 +1531,7 @@ public class ConstructionData {
 		MARBLE_DOOR(92, 13348, 2000, 94, 8124, new int[][] {{MARBLE_BLOCK, 4}}),
 		/**
 		 * Pit
-		 */
+		 *//*constructionremoved
 		MINOR_PIT_TRAP(93, 39266, 304, 71, 18797, new int[][] {{COIN, 45000}, {554, 500}}),
 		MAJOR_PIT_TRAP(93, 39268, 1000, 83, 18798, new int[][] {{COIN, 125000}, {554, 2500}}),
 		SUPERIOR_PIT_TRAP(93, 39270, 1100, 96, 18799, new int[][] {{COIN, 850000}, {554, 4500}}),
@@ -1545,7 +1545,7 @@ public class ConstructionData {
 
 		/**
 		 * Treasure room
-		 */
+		 *//*constructionremoved
 		DEMON(95, 13378, 707, 75, 8138, new int[][] {{COIN, 500000}}),
 		KALPHITE_SOLDIER(95, 13374, 866, 80, 8139, new int[][] {{COIN, 750000}}),
 		TOK_XIL(95, 13377, 2236, 85, 8140, new int[][] {{COIN, 5000000}}),
@@ -1677,7 +1677,7 @@ public class ConstructionData {
 	 * Bagged Tall fancy Hedge = TFH
 	 * Bagged Tall Box hedge = TBH <- win? xD
 	 * Bucket of water = BOW
-	 */
+	 *//*constructionremoved
 	public static int getRotatedLandscapeChunkX(int rotation, int objectSizeY,
 			int x, int y, int objectSizeX, int objectRot) {
 		rotation &= 3;
@@ -1778,5 +1778,5 @@ public class ConstructionData {
 				return 3590;
 		}
 		return -1;
-	}
+	}*/
 }
