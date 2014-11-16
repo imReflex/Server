@@ -4,7 +4,7 @@ import org.endeavor.game.entity.Location;
 
 public class ConstructionConstants {
 
-	public static final int MAX_FLOORS = 80;
+	/*//construcionremovedpublic static final int MAX_FLOORS = 80;
 	
 	public static final Location DRAYNOR = new Location(3092, 3248);
 	public static final Location YANILLE = new Location(2606, 3093);
@@ -37,5 +37,5 @@ public class ConstructionConstants {
 	public static final String KARAMJA = "";
 	public static final int MAGEBANK_X = 3084;
 	public static final int MAGEBANK_Y = 3248;
-	public static final String MAGEBANK = "";
+	public static final String MAGEBANK = "";*///constructionremoved
 }
