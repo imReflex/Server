@@ -1,6 +1,6 @@
 package org.endeavor.game.content.skill.construction;
  
-public class Palette {
+/*constructionremovedpublic class Palette {
        
         public static final int DIRECTION_NORMAL = 0;
         public static final int DIRECTION_CW_0 = 0;
@@ -58,4 +58,4 @@ public class Palette {
                 tiles[x][y][z] = tile;
         }
  
-}
+}*/
