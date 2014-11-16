@@ -1,13 +1,13 @@
 package org.endeavor.game.content.skill.construction;
 
-import org.endeavor.game.content.skill.construction.ConstructionData.RoomData;
+//import org.endeavor.game.content.skill.construction.ConstructionData.RoomData;
 
 /**
  * 
  * @author Owner Blade
  *
  */
-public class Room {
+/*constructionremovedpublic class Room {
 
 	private int rotation, type, theme;
 	private int x, y;
@@ -54,4 +54,4 @@ public class Room {
 	{
 		this.rotation = rotation;
 	}
-}
+}*/
