@@ -7,7 +7,7 @@ import org.endeavor.game.entity.player.Player;
  * @author Owner Blade
  *
  */
-public class HouseDungeon extends MapInstance {
+/*constructionremovedpublic class HouseDungeon extends MapInstance {
 
 	private House house;
 	public HouseDungeon(int leaveX, int leaveY, boolean b) {
@@ -101,4 +101,4 @@ public class HouseDungeon extends MapInstance {
 	}
 
 	
-}
+}*/
