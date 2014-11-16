@@ -7,6 +7,7 @@ import org.endeavor.game.content.dialogue.DialogueManager;
 import org.endeavor.game.content.skill.magic.MagicSkill;
 import org.endeavor.game.entity.player.Player;
 import org.endeavor.game.entity.player.net.out.impl.SendRemoveInterfaces;
+import org.endeavor.game.entity.player.net.out.impl.SendMessage;
 
 public class BossesTeleport extends Dialogue {
 	public BossesTeleport(Player player) {
