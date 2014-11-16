@@ -1,13 +1,13 @@
 package org.endeavor.game.content.skill.construction;
 
-import org.endeavor.game.content.skill.construction.ConstructionData.HotSpots;
+//import org.endeavor.game.content.skill.construction.ConstructionData.HotSpots;
 
 /**
  * 
  * @author Owner Blade
  *
  */
-public class PlayerFurniture {
+/*constructionremovedpublic class PlayerFurniture {
 
 	private int roomX, roomY, roomZ, hotSpotId, furnitureId, standardXOff, standardYOff;
 	public PlayerFurniture(int roomX, int roomY, int roomZ, int hotSpotId, int furnitureId, int standardXOff, int standardYOff)
@@ -67,4 +67,4 @@ public class PlayerFurniture {
 		this.roomZ = roomZ;
 	}
 	
-}
+}*/
