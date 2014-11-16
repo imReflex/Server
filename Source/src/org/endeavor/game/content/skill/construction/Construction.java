@@ -15,7 +15,7 @@ import org.endeavor.game.content.dialogue.DialogueManager;
 import org.endeavor.game.entity.Animation;
 import org.endeavor.game.entity.Location;
 import org.endeavor.game.entity.mob.Mob;
-import org.endeavor.game.entity.player.Player;
+import org.endeavor.game.entity.player.Player;//
 
 /**
  * 
