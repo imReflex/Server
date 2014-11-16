@@ -34,7 +34,8 @@ public class BossesTeleport extends Dialogue {
 			end();
 			break;
 		case 4:
-			getPlayer().getMagic().teleport(2882, 5310, 2, MagicSkill.TeleportTypes.SPELL_BOOK);
+			//getPlayer().getMagic().teleport(2882, 5310, 2, MagicSkill.TeleportTypes.SPELL_BOOK);
+			getPlayer().getClient().queueOutgoingPacket(new SendMessage("Godwars is Bugged, Need to fix"));
 			end();
 			break;
 		case 5:
