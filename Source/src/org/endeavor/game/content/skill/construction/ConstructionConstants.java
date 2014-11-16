@@ -3,7 +3,7 @@ package org.endeavor.game.content.skill.construction;
 import org.endeavor.game.entity.Location;
 
 public class ConstructionConstants {
-
+//
 	/*//construcionremovedpublic static final int MAX_FLOORS = 80;
 	
 	public static final Location DRAYNOR = new Location(3092, 3248);
