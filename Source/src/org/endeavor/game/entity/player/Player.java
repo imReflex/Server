@@ -27,6 +27,7 @@ import org.endeavor.game.content.RunEnergy;
 import org.endeavor.game.content.clans.Clan;
 import org.endeavor.game.content.clans.ClanChannel;
 import org.endeavor.game.content.clans.Clans;
+import org.endeavor.game.content.clanchat.ClanChat;
 import org.endeavor.game.content.clans.clanwars.ClanWarController;
 import org.endeavor.game.content.combat.Combat.CombatTypes;
 import org.endeavor.game.content.combat.CombatInterface;
@@ -116,6 +117,7 @@ public class Player extends Entity {
 	private PrivateMessaging privateMessaging = new PrivateMessaging(this);
 	private transient Clan clan;
 	private transient ClanChannel channel;
+	private transient ClanChat clanChat;
 	private String clanTitle = "";
 	private boolean clanOwner;
 	private HashMap<String,Long> clanKickMap = new HashMap<String,Long>();
@@ -526,7 +528,7 @@ public class Player extends Entity {
 	}
 
 	public boolean login(boolean starter, PlayerDetails pd) throws Exception {
-		this.initEntity();
+		/*this.initEntity();*///remoconstruction
 		this.client = pd.getClient();
 		if(this.client != null) {
 			this.client.setPlayer(this);
@@ -1524,6 +1526,10 @@ public class Player extends Entity {
 
 	public Clan getClan() {
 		return this.clan;
+	}
+	
+	public ClanChat getClanChat() {
+		return this.clanChat;
 	}
 	
 	public void setClan(Clan clan) {
