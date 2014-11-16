@@ -4,13 +4,13 @@ public class Configuration {
 	
 	//public final static String jaggrab = /*"127.0.0.1"*/"107.167.4.210";
 	//public final static String server = /*"127.0.0.1"*/"107.167.4.210"; 
-	public final static String jaggrab = "127.0.0.1";
-	public final static String server = "127.0.0.1"; 
+	public final static String jaggrab = "aphelion-rsps.no-ip.org";
+	public final static String server = "aphelion-rsps.no-ip.org"; 
 	//public final static String server = "localhost";
 	public final static int CHARACTERS_SEPARATOR_WIDTH = 110; 
 	public final static double CLIENT_VERSION = 0.1;
 	
-	public final static String CLIENT_NAME = "RevolutionX | BETA " + CLIENT_VERSION;
+	public final static String CLIENT_NAME = "Aphelion | BETA " + CLIENT_VERSION;
 	
 	public final static boolean LOAD_BACKGROUND = false;
 	
