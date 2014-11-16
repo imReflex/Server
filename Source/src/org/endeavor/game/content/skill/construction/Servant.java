@@ -9,7 +9,7 @@ import org.endeavor.game.entity.player.Player;
  * @author Owner Blade
  *
  */
-public class Servant extends Mob {
+/*constructionremovedpublic class Servant extends Mob {
 
 	private boolean fetching, greetVisitors;
 	private int[] inventory;
@@ -57,7 +57,7 @@ public class Servant extends Mob {
 	{
 		/*if(getFields().mapInstance == null)
 			return;
-		GameServer.getWorld().deregister(this);*/
+		GameServer.getWorld().deregister(this);*//*constructionremoved
 		putBackInBank(getOwner());
 	}
 	
@@ -71,7 +71,7 @@ public class Servant extends Mob {
 			int tab = Bank.getTabforItem(p, inventory[i]);
 			p.getBank(tab).add(inventory[i], 1);
 		}
-		p.getFields().setBanking(false);*/
+		p.getFields().setBanking(false);*//*constructionremoved
 		
 		for (int i : inventory) {
 			if (i != 0) {
@@ -100,7 +100,7 @@ public class Servant extends Mob {
 				return;
 			if(addInventoryItem(itemId))
 				p.getBank(tab).delete(itemId+1, 1);
-		}*/
+		}*//*constructionremoved
 	}
 	
 	public void giveItems(Player p)
@@ -136,4 +136,4 @@ public class Servant extends Mob {
 	}
 
 	
-}
+}*/
