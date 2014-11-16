@@ -1080,12 +1080,12 @@ public abstract class Entity implements CombatInterface, Serializable {
 		this.teleblockTime = teleblockTime;
 	}
 
-	public MapInstance getMapInstance() {
+	/*public MapInstance getMapInstance() {
 		return mapInstance;
-	}
+	}*/
 
-	public void setMapInstance(MapInstance mapInstance) {
+	/*public void setMapInstance(MapInstance mapInstance) {
 		this.mapInstance = mapInstance;
-	}
+	}*/
 	
 }
